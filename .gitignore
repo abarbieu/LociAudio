@@ -1,0 +1,14 @@
+data/
+config.ini
+help_files/
+__pycache__/
+temp/
+*.mp3
+*.wav
+*.m4a
+*.DS_Store
+.DS_Store
+diarization/
+archive/
+data/
+test_data/

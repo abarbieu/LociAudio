@@ -1,0 +1,9 @@
+base_dir: "./data"
+whisper_models_dir: "./whisper.cpp/models"
+model_names:
+  # - "ggml-base.en"
+  - "ggml-small.en"
+  # - "ggml-large"
+use_preconverted: true  # set to true to use pre-converted files
+preconverted_dir: "./audio/wavs"  # directory containing pre-converted files
+other_params: "-pc -mc 0"
