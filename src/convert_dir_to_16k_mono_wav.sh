@@ -28,7 +28,7 @@ shopt -s nullglob
 cd "$base_dir"
 
 # Loop through audio files
-for f in *.mp3 *.wav *.m4a *.WAV; do
+for f in *.mp3 *.wav *.m4a *.WAV *.ogg; do
   output_file="./wav_temp/${f%.*}.wav"
   printf "Converting \e[32m%s\e[0m to 16kHz Mono Wav\n" "$f"
   ffmpeg -v quiet -stats -i "$f" -ar 16000 -ac 1 -c:a pcm_s16le "$output_file" -y

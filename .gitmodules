@@ -1,3 +1,9 @@
 [submodule "whisper.cpp"]
 	path = whisper.cpp
-	url = https://github.com/ggerganov/whisper.cpp.git
+	url = https://github.com/ggerganov/whisper.cpp/tree/master
+[submodule "pyannote-audio"]
+	path = pyannote-audio
+	url = ./pyannote-audio
+[submodule "pyannote-whisper"]
+	path = pyannote-whisper
+	url = https://github.com/yinruiqing/pyannote-whisper.git

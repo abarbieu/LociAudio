@@ -1,0 +1,560 @@
+{
+	"systeminfo": "AVX = 0 | AVX2 = 0 | AVX512 = 0 | FMA = 0 | NEON = 1 | ARM_FMA = 1 | F16C = 0 | FP16_VA = 1 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 0 | SSSE3 = 0 | VSX = 0 | COREML = 1 | OPENVINO = 0 | ",
+	"model": {
+		"type": "base",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"text": {
+			"ctx": 448,
+			"state": 512,
+			"head": 8,
+			"layer": 6
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "./whisper.cpp/models/ggml-base.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3000
+			},
+			"text": " What I'm trying to say is that the appeal is certain for so far."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,000",
+				"to": "00:00:07,920"
+			},
+			"offsets": {
+				"from": 3000,
+				"to": 7920
+			},
+			"text": " Well you mean that communication management until like storm would be brought into the"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:07,920",
+				"to": "00:00:08,920"
+			},
+			"offsets": {
+				"from": 7920,
+				"to": 8920
+			},
+			"text": " appeal process?"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,920",
+				"to": "00:00:10,720"
+			},
+			"offsets": {
+				"from": 8920,
+				"to": 10720
+			},
+			"text": " Right, we see connection to the appeal."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,720",
+				"to": "00:00:14,400"
+			},
+			"offsets": {
+				"from": 10720,
+				"to": 14400
+			},
+			"text": " I hope you understand there are issues of reputation and I have to deal with those in"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,400",
+				"to": "00:00:17,560"
+			},
+			"offsets": {
+				"from": 14400,
+				"to": 17560
+			},
+			"text": " the appeal process rather than the commercial issues around settlement."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:17,560",
+				"to": "00:00:19,920"
+			},
+			"offsets": {
+				"from": 17560,
+				"to": 19920
+			},
+			"text": " And then this is the appeal to defamation."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:19,920",
+				"to": "00:00:23,560"
+			},
+			"offsets": {
+				"from": 19920,
+				"to": 23560
+			},
+			"text": " I believe that the application we can proceed with for defamation."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,560",
+				"to": "00:00:28,320"
+			},
+			"offsets": {
+				"from": 23560,
+				"to": 28320
+			},
+			"text": " Yeah, I'll investigate it to what we have as written evidence of what we do not have."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,320",
+				"to": "00:00:30,920"
+			},
+			"offsets": {
+				"from": 28320,
+				"to": 30920
+			},
+			"text": " Okay, great. I'm thankful for you to do that."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,920",
+				"to": "00:00:32,080"
+			},
+			"offsets": {
+				"from": 30920,
+				"to": 32080
+			},
+			"text": " Absolutely."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,080",
+				"to": "00:00:33,480"
+			},
+			"offsets": {
+				"from": 32080,
+				"to": 33480
+			},
+			"text": " Evidence is important, you know,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:33,480",
+				"to": "00:00:37,760"
+			},
+			"offsets": {
+				"from": 33480,
+				"to": 37760
+			},
+			"text": " and if you understand what a party question has after a program,"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,760",
+				"to": "00:00:39,280"
+			},
+			"offsets": {
+				"from": 37760,
+				"to": 39280
+			},
+			"text": " it's a process."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,280",
+				"to": "00:00:43,680"
+			},
+			"offsets": {
+				"from": 39280,
+				"to": 43680
+			},
+			"text": " And there is a great possibility of definition to everybody's services like this."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:43,680",
+				"to": "00:00:45,120"
+			},
+			"offsets": {
+				"from": 43680,
+				"to": 45120
+			},
+			"text": " Exactly."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,120",
+				"to": "00:00:47,000"
+			},
+			"offsets": {
+				"from": 45120,
+				"to": 47000
+			},
+			"text": " I hope you feel that I've been listening to."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:47,000",
+				"to": "00:00:48,920"
+			},
+			"offsets": {
+				"from": 47000,
+				"to": 48920
+			},
+			"text": " Yeah, absolutely. Thank you."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,920",
+				"to": "00:00:52,720"
+			},
+			"offsets": {
+				"from": 48920,
+				"to": 52720
+			},
+			"text": " What I've also noted down from this is that there are a number of other people"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:52,720",
+				"to": "00:00:57,240"
+			},
+			"offsets": {
+				"from": 52720,
+				"to": 57240
+			},
+			"text": " that I need to speak to, which I'll do as quickly as I possibly can."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:57,240",
+				"to": "00:01:02,600"
+			},
+			"offsets": {
+				"from": 57240,
+				"to": 62600
+			},
+			"text": " It vaulted a race to this conversation number of points which I now need to go about and"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,600",
+				"to": "00:01:06,840"
+			},
+			"offsets": {
+				"from": 62600,
+				"to": 66840
+			},
+			"text": " test with the other perspective to try and make them a judgement about working off the"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,840",
+				"to": "00:01:07,840"
+			},
+			"offsets": {
+				"from": 66840,
+				"to": 67840
+			},
+			"text": " evidence side."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:07,840",
+				"to": "00:01:13,000"
+			},
+			"offsets": {
+				"from": 67840,
+				"to": 73000
+			},
+			"text": " It means strictly because it's a lot of confrontation with personal stuff and in fact"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,000",
+				"to": "00:01:15,640"
+			},
+			"offsets": {
+				"from": 73000,
+				"to": 75640
+			},
+			"text": " my team is also sort of there on my mind."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,640",
+				"to": "00:01:17,840"
+			},
+			"offsets": {
+				"from": 75640,
+				"to": 77840
+			},
+			"text": " So I had to very start this whole process."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,840",
+				"to": "00:01:18,840"
+			},
+			"offsets": {
+				"from": 77840,
+				"to": 78840
+			},
+			"text": " I thought it was good."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,840",
+				"to": "00:01:19,840"
+			},
+			"offsets": {
+				"from": 78840,
+				"to": 79840
+			},
+			"text": " You know it's reasonably good."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,840",
+				"to": "00:01:22,440"
+			},
+			"offsets": {
+				"from": 79840,
+				"to": 82440
+			},
+			"text": " We dealt with very, very quickly and very, very smoothly."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,440",
+				"to": "00:01:26,040"
+			},
+			"offsets": {
+				"from": 82440,
+				"to": 86040
+			},
+			"text": " Or it could just be a traumatic long drawn up process."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,040",
+				"to": "00:01:30,400"
+			},
+			"offsets": {
+				"from": 86040,
+				"to": 90400
+			},
+			"text": " I would appreciate that, the fact that you have of course your personal interest and the"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,400",
+				"to": "00:01:35,200"
+			},
+			"offsets": {
+				"from": 90400,
+				"to": 95200
+			},
+			"text": " conventional that you have an intention to make this work if at all possible and the"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,200",
+				"to": "00:01:37,760"
+			},
+			"offsets": {
+				"from": 95200,
+				"to": 97760
+			},
+			"text": " way it makes sense to the other party too."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,760",
+				"to": "00:01:38,760"
+			},
+			"offsets": {
+				"from": 97760,
+				"to": 98760
+			},
+			"text": " So appreciate that."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,760",
+				"to": "00:01:42,760"
+			},
+			"offsets": {
+				"from": 98760,
+				"to": 102760
+			},
+			"text": " The truth is I went for a tune of periods that wasn't, you know, if that wasn't a game"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:42,760",
+				"to": "00:01:44,760"
+			},
+			"offsets": {
+				"from": 102760,
+				"to": 104760
+			},
+			"text": " you're interested in talking about the standard."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,760",
+				"to": "00:01:47,240"
+			},
+			"offsets": {
+				"from": 104760,
+				"to": 107240
+			},
+			"text": " Ok Justin, thank you for struggling and so far."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,240",
+				"to": "00:01:48,240"
+			},
+			"offsets": {
+				"from": 107240,
+				"to": 108240
+			},
+			"text": " What else would you want to cover?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,240",
+				"to": "00:01:53,240"
+			},
+			"offsets": {
+				"from": 108240,
+				"to": 113240
+			},
+			"text": " The thing really, the bits in the rest, not the rest of the day, to talk about the timeline,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,240",
+				"to": "00:01:56,240"
+			},
+			"offsets": {
+				"from": 113240,
+				"to": 116240
+			},
+			"text": " Maybe it's going to be quicker than the original door."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:56,240",
+				"to": "00:02:01,240"
+			},
+			"offsets": {
+				"from": 116240,
+				"to": 121240
+			},
+			"text": " I won't worry about any back thing, but I'll never live for the world half the time."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:01,240",
+				"to": "00:02:03,240"
+			},
+			"offsets": {
+				"from": 121240,
+				"to": 123240
+			},
+			"text": " I think I'd go back to everyone, but I mean,"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,240",
+				"to": "00:02:08,240"
+			},
+			"offsets": {
+				"from": 123240,
+				"to": 128240
+			},
+			"text": " but to understand the evidence we spoke about and how the trade we got to serious."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,240",
+				"to": "00:02:10,240"
+			},
+			"offsets": {
+				"from": 128240,
+				"to": 130240
+			},
+			"text": " Written evidence would be important."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:10,240",
+				"to": "00:02:14,240"
+			},
+			"offsets": {
+				"from": 130240,
+				"to": 134240
+			},
+			"text": " However, I'll be challenging them with many of the points we've made in this conversation."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:14,240",
+				"to": "00:02:15,240"
+			},
+			"offsets": {
+				"from": 134240,
+				"to": 135240
+			},
+			"text": " Alright, that's not school."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,240",
+				"to": "00:02:18,240"
+			},
+			"offsets": {
+				"from": 135240,
+				"to": 138240
+			},
+			"text": " Okay, thank you very much. We have a good day."
+		},
+		{
+			"timestamps": {
+				"from": "00:02:18,240",
+				"to": "00:02:19,240"
+			},
+			"offsets": {
+				"from": 138240,
+				"to": 139240
+			},
+			"text": " Yeah, thank you."
+		}
+	]
+}

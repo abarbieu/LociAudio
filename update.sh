@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Command Check: yq
 if ! command -v yq &> /dev/null; then
   echo "Error: yq is not installed. Please install yq."
@@ -8,12 +7,16 @@ fi
 
 # Read Config
 base_dir=$(yq eval '.base_dir' config.yaml)
+
+./src/check_dir_conformity.sh "$base_dir"
+
 whisper_models_dir=$(yq eval '.whisper_models_dir' config.yaml)
 model_names=$(yq eval '.model_names[]' config.yaml)
 use_preconverted=$(yq eval '.use_preconverted' config.yaml)
 preconverted_dir=$(yq eval '.preconverted_dir' config.yaml)
 other_params=$(yq eval '.other_params' config.yaml)
 IFS=$'\n' read -rd '' -a models <<<"$model_names"
+pause_length=5  # Set the pause length for silence removal
 
 # Validate models
 models_full_path=()
@@ -37,13 +40,21 @@ if [ "$use_preconverted" = "true" ]; then
   fi
 else
   echo "Step 1: Converting audio files."
-  if ./convert_dir_to_16k_mono_wav.sh "$base_dir"; then
+  if ./src/convert_dir_to_16k_mono_wav.sh "$base_dir"; then
     echo "Step 1: Complete."
     wav_dir_to_use="$base_dir/wav_temp"
   else
     echo "Error: Conversion failed."
     exit 1
   fi
+fi
+
+# Call remove_silence_wav_dir.sh script
+if ./src/remove_silence_wav_dir.sh "$pause_length" "$wav_dir_to_use"; then
+  echo "Silence removal complete."
+else
+  echo "Error: Silence removal failed."
+  exit 1
 fi
 
 echo "Step 2: Transcription."
@@ -55,7 +66,7 @@ for model_path in "${models_full_path[@]}"; do
   transcript_dir="$base_dir/transcripts_$model_name"
   mkdir -p "$transcript_dir"
 
-  if ./transcribe_wav_dir.sh "$wav_dir_to_use" "$model_path" "$transcript_dir" "$other_params"; then
+  if ./src/transcribe_wav_dir.sh "$wav_dir_to_use" "$model_path" "$transcript_dir" "$other_params"; then
     echo "Transcription complete for model: $model_name."
   else
     echo "Error: Transcription failed for model: $model_name."
